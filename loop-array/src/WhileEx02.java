@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LoopEx02 {
+public class WhileEx02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite uma nota de 0 a 10: ");

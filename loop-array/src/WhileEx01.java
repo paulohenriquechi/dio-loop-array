@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LoopEx01 {
+public class WhileEx01 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
         String nome;
