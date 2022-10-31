@@ -11,5 +11,6 @@ public class ForEx01 {
             r = n*i;
             System.out.println(n+"x"+i+" = "+r);
         }
+        input.close();
     }
 }

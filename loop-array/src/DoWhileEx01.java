@@ -14,6 +14,7 @@ public class DoWhileEx01 {
             if(numero>maior) maior = numero;
             soma += numero;
         }while(i<5);
+        input.close();
         double media = soma/5;
         System.out.println("Maior numero: "+maior);
         System.out.println("Media: "+media);
