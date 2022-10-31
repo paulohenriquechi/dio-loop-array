@@ -14,6 +14,7 @@ public class LoopEx01 {
             System.out.println("Idade: ");
             idade = input.nextInt();
         }
+        input.close();
         System.out.println("Fim do programa");
     }
 }
