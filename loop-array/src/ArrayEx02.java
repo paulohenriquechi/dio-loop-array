@@ -12,7 +12,6 @@ public class ArrayEx02 {
             for(int j=0;j<=4;j++){
                 if(frase[i].equalsIgnoreCase(vogais[j])){
                     consoante[j] = frase[i];
-                    break;
                 }
             }
         }
@@ -21,5 +20,6 @@ public class ArrayEx02 {
             System.out.println(consoante[i]);
         }
         System.out.println("Quantidade de consoantes: "+consoante.length);
+        input.close();
     }
 }
